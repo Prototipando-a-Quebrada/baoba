@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: sans-serif;  
+}
+
+.top{
+    height: 100px;
+    background-color: #666;
+    text-align: center;
+}
+
+.space{
+    height: 20px;
+    background-color: rgb(200, 200, 200);
+}
+
+.footer{
+    height: 100px;
+    background-color: #666;
+    color: white;
+    font-size: 30px;
+    position: relative;    
+}
+
+.inner-footer {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    text-align: center;
+}
+
+.footer .direitos {
+    font-size: 1rem;
+}
+
+.footer .label {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.footer .site {
+    font-size: 0.8rem;
+}
+
+.footer .nome {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.content{
+    height: calc(100vh - 220px);
+}
+
+.container {
+    width: 80%;
+    display: inline-block;
+    height: 100%;
+}
+
+.top .img {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+}
+.top .img img {
+    max-height: 100%;
+}
+
+.top .buttons {
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+}
+
